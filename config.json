@@ -1,0 +1,14 @@
+{
+    "modules":
+    {
+        "<pluginName>":
+        {
+            "entry": [
+                "<entry>/index"
+            ],
+            "active": true,
+            "installed": false,
+            "order": 1
+        }
+    }
+}

@@ -18,27 +18,27 @@
       "software_engineer": {
         "name": "Software Engineer",
         "capacity": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "index": "/spv/a/"
+        "index": "/spv/a/#/"
       },
       "super_admin": {
         "name": "Chief Admin",
         "capacity": [2, 3, 4, 5, 6, 7, 8, 11, 12],
-        "index": "/spv/a/"
+        "index": "/spv/a/#/"
       },
       "admin": {
         "name": "Operation Admin",
         "capacity": [4, 5, 12],
-        "index": "/spv/a/"
+        "index": "/spv/a/#/"
       },
       "seller": {
         "name": "Seller",
         "capacity": [6, 7, 8, 13],
-        "index": "/seller/"
+        "index": "/seller/#/"
       },
       "buyer": {
         "name": "Buyer",
         "capacity": [6, 7, 8, 14],
-        "index": "/buyer/"
+        "index": "/buyer/#/"
       }
     },
     "defaultRole": "buyer"

@@ -56,10 +56,6 @@
                 }
             ]
         },
-        {
-            label: "Currency",
-            name: "currency.base"
-        }
     ])
 </script>
 

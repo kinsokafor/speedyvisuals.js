@@ -6,7 +6,7 @@
         "SPVAdmin/index",
         "SPVBuyer/index",
         "SPVSeller/index"
-    ],
+      ],
       "active": true,
       "installed": false,
       "order": 1
@@ -42,5 +42,97 @@
       }
     },
     "defaultRole": "buyer"
-  }
+  },
+  "plans": {
+    "freelancer_plans": [
+      {
+        "slug": "starter",
+        "tier": "Starter",
+        "monthly_fee": 0,
+        "features": [
+          "Basic profile",
+          "Access to standard job listings",
+          "Apply to up to 5 jobs/month"
+        ]
+      },
+      {
+        "slug": "pro-visualizer",
+        "tier": "Pro Visualizer",
+        "monthly_fee": 19,
+        "features": [
+          "Unlimited job applications",
+          "Profile ranking boost",
+          "Portfolio analytics",
+          "Verified badge"
+        ]
+      },
+      {
+        "slug": "studio-partner",
+        "tier": "Studio Partner",
+        "monthly_fee": 49,
+        "features": [
+          "Everything in Pro",
+          "Featured in homepage rotation",
+          "Access to premium jobs",
+          "Early access to new features",
+          "1:1 curator review monthly"
+        ]
+      }
+    ],
+    "client_plans": [
+      {
+        "slug": "explorer",
+        "tier": "Explorer",
+        "monthly_fee": 0,
+        "features": [
+          "Post up to 2 projects/month",
+          "Access public freelancer profiles",
+          "Basic messaging"
+        ]
+      },
+      {
+        "slug": "power-poster",
+        "tier": "Power Poster",
+        "monthly_fee": 29,
+        "features": [
+          "Unlimited job posts",
+          "Priority freelancer suggestions",
+          "Featured job listings",
+          "Extended file storage"
+        ]
+      },
+      {
+        "slug": "studio-enterprise",
+        "tier": "Studio Enterprise",
+        "monthly_fee": 99,
+        "features": [
+          "Everything in Pro",
+          "Internal team dashboard",
+          "Invite-only hiring",
+          "NDA protection tools",
+          "API access"
+        ]
+      }
+    ]
+  },
+  "addons": [
+    {
+      "name": "Job Post Boost",
+      "fee": 5,
+      "is_monthly": false,
+      "description": "Highlights a project in search results"
+    },
+    {
+      "name": "Portfolio Review",
+      "fee": 15,
+      "is_monthly": false,
+      "description": "Get expert feedback on your portfolio"
+    },
+    {
+      "name": "Freelancer Verification",
+      "fee": 10,
+      "is_monthly": false,
+      "description": "Badge added to your profile"
+    }
+  ]
 }

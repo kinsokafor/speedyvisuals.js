@@ -4,6 +4,7 @@ import Dashboard from '../views/Dashboard.vue'
 import adminRoutes from '@module/Main/Admin/router/shared'
 import profileRoutes from '@module/Main/Main/router/shared'
 import Settings from '../views/Settings.vue'
+import projectRoutes from '../../common/Project/admin'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -26,7 +27,8 @@ const router = createRouter({
             meta: { title: "Configuration" }
         },
         ...adminRoutes,
-        ...profileRoutes
+        ...profileRoutes,
+        ...projectRoutes,
     ]
 });
 

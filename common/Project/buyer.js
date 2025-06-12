@@ -7,13 +7,13 @@ const shared = [
         path: '/projects/new',
         name: 'Projects | New',
         component: Post,
-        meta: { title: "Projects | New" }
+        meta: { title: "New Project | Projects" }
     },
     {
         path: '/projects/assign/:id',
         name: 'Projects | Assign',
         component: Assign,
-        meta: { title: "Projects | Assign" }
+        meta: { title: "Assign Project | Projects" }
     }
 ]
 

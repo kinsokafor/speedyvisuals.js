@@ -32,7 +32,7 @@ import SpreadContainer from "@module/speedyvisuals/components/SpreadContainer.vu
 import { computed, ref } from "vue";
 import CreateForm from "@/components/form/CreateForm.vue";
 import * as yup from "yup";
-import { EvoUId } from "@/helpers";
+import { SecureUId } from "@/helpers";
 import { useAlertStore } from "@/store/alert";
 import { useMyProjectsStore } from "@module/speedyvisuals/store/projects";
 import { useRouter } from "vue-router";
@@ -43,7 +43,7 @@ const myProjectsStore = useMyProjectsStore();
 const values = ref({});
 const page = ref(1);
 const router = useRouter();
-const uid = new EvoUId("p")
+const uid = new SecureUId()
 
 const projectTypes = ref([
   "architectural drawings",
@@ -78,7 +78,8 @@ const fields = computed(() => [
   },{
     label: "Color preference (if any)",
     placeholder: "Please specify your preferred colors",
-    name: "colors"
+    name: "colors",
+    condition: page.value === 1,
   },
   {
     label: "Project type",
